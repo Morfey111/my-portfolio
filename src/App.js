@@ -27,10 +27,16 @@ const App = () => {
     },
   ];
 
+  <Calories quantity={calories} />
+
+  const addCaloriesHandler = (inputCalories) => {
+    console.log('In App.js')
+    console.log(inputCalories)
+  }
+
   return (
     <div>
-      <NewCalories />
-
+      <NewCalories onAddCalories={addCaloriesHandler} />
       <Calories quantity={calories} />
     </div>
   );

@@ -4,6 +4,7 @@ import Card from '../UI/Card';
 
 const Calories = (props) => {
     return (<Card className='calories'>
+        
         <CaloriesProducts
             title={props.quantity[0].title}
             amount={props.quantity[0].amount}
