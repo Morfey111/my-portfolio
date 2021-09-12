@@ -10,6 +10,7 @@ const CaloriesDate = (props) => {
       <div className="calories-date__month">{month}</div>
       <div className="calories-date__year">{year}</div>
       <div className="calories-date__day">{day}</div>
+      <h1>test</h1>
     </div>
   );
 }
